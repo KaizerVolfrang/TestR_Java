@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Input_Info {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -11,6 +12,11 @@ public class Input_Info {
 
         // Вывод приветствия с полученной информацией
         System.out.println("Привет, " + name + "! Вам " + age + " лет.");
+
+        int age = 25;
+        double height = 1.75; 
+        char initial = 'J';
+        boolean isStudent = true;
 
     }
 }
